@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tringara is building a more thoughtful way to discover packaged foods.">
+  <title>Tringara — Coming Soon</title>
+
+  <style>
+    :root {
+      --ink: #18342e;
+      --muted: #5f6f69;
+      --paper: #f8f7f1;
+      --accent: #dd6f43;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px 20px;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main {
+      width: min(620px, 100%);
+      text-align: center;
+    }
+
+    .logo {
+      width: min(230px, 68vw);
+      height: auto;
+      margin: 0 auto 36px;
+      display: block;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    p {
+      max-width: 540px;
+      margin: 0 auto;
+      font-size: 1.12rem;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+
+    .note {
+      margin-top: 28px;
+      font-size: 0.97rem;
+    }
+
+    a {
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration-color: var(--accent);
+      text-underline-offset: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <img class="logo" src="logo.png" alt="Tringara">
+
+    <h1>We’re building Tringara.</h1>
+
+    <p>
+      There are foods in your local grocery store that meet the standards you care about. Finding them is the problem. Tringara solves that.
+    </p>
+
+    <p class="note">
+      We’ll be ready soon. In the meantime, you can reach us at
+      <a href="mailto:info@tringara.com">info@tringara.com</a>.
+    </p>
+  </main>
+</body>
+</html>
